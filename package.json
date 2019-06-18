@@ -4,7 +4,8 @@
   "description": "Serialize mapbox vector tiles to binary protobufs in javascript.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js test/*.js && tap test/*.js"
+    "test": "eslint index.js test/*.js && tap test/*.js",
+    "webpack": "webpack"
   },
   "author": "Anand Thakker <vestibule@anandthakker.net> (http://anandthakker.net/)",
   "license": "MIT",
@@ -31,6 +32,8 @@
     "geojson-equality": "^0.1.5",
     "geojson-vt": "^2.1.1",
     "standard": "^4.5.4",
-    "tap": "^11.1.5"
+    "tap": "^11.1.5",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
   }
 }
